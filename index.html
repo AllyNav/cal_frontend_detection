@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blur and Hand Detection</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Live Blur and Hand Detection</h1>
+  <canvas id="canvas"></canvas>
+  <p id="result">Analyzing blur and hand movements...</p>
+  <p id="blur-warning"></p>
+
+  <button id="start">Start</button>
+  <button id="stop">Stop</button>
+
+
+  <!-- Include MediaPipe library -->
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
